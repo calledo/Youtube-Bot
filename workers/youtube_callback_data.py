@@ -117,7 +117,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaAudio(
             media=filename,
             thumb=thumb_image_path,
-            caption=("Made With ❤ By @TheTeleRoid"),
+            caption=("Made With ❤ By @CalledoBotupdates"),
             title=os.path.basename(filename)
         )
 
@@ -130,7 +130,7 @@ async def catch_youtube_dldata(c, q):
             width=width,
             height=height,
             thumb=thumb_image_path,
-            caption=("Made With ❤ By @TheTeleRoid"),
+            caption=("Made With ❤ By @Calledobotudpates"),
             supports_streaming=True
         )
 
@@ -139,7 +139,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaDocument(
             media=filename,
             thumb=thumb_image_path,
-            caption=("Made With ❤ By @TheTeleRoid"),
+            caption=("Made With ❤ By @Calledobotupdates"),
         )
         
 #docvideo needs work
@@ -149,7 +149,7 @@ async def catch_youtube_dldata(c, q):
        # med = InputMediaDocument(
         #    media=filename,
        #     thumb=thumb_image_path,
-      #      caption=("Check Movies Here @MoviesFlixers_DL"),
+      #      caption=("Check Movies Here @Cgmoviehub"),
     #    )
     
     
