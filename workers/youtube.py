@@ -46,7 +46,7 @@ async def ytdl(_, message):
     except Exception:
         await message.reply_text("Failed To Fetch Youtube Data.....😔"
                                  "Wait for {wait_time} or try other link"
-                                 "[Pʀᴇᴅ∆ᴛᴏʀ](https://telegra.ph/file/3f287a7ff7bd6d63fbd60.jpg)")
+                                 "[Pʀᴇᴅ∆ᴛᴏʀ](https://te.legra.ph/file/9d210b206d05398e74846.mp4)")
         return
     buttons = InlineKeyboardMarkup(list(create_buttons(formats)))
     sentm = await message.reply_text("Select Audio or Video👇🏻")
@@ -65,7 +65,7 @@ async def ytdl(_, message):
     except Exception as e:
         print(e)
         try:
-            thumbnail_url = "https://telegra.ph/file/3f287a7ff7bd6d63fbd60.jpg"
+            thumbnail_url = "https://te.legra.ph/file/9d210b206d05398e74846.mp4"
             await message.reply_photo(thumbnail_url, caption=title, reply_markup=buttons)
         except Exception as e:
             await sentm.edit(
